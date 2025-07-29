@@ -36,6 +36,7 @@ config.wings.items.entry.bat=Bat Wings Attributes
 config.wings.items.entry.fairy=Fairy Wings Attributes
 config.wings.items.entry.evil=Evil Wings Attributes
 config.wings.items.entry.dragon=Dragon Wings Attributes
+config.wings.items.entry.parrot=Parrot Wings Attributes
 config.wings.items.entry.angel.tooltip=Customize item attributes
 config.wings.items.entry.slime.tooltip=Customize item attributes
 config.wings.items.entry.blue_butterfly.tooltip=Customize item attributes
@@ -45,6 +46,7 @@ config.wings.items.entry.bat.tooltip=Customize item attributes
 config.wings.items.entry.fairy.tooltip=Customize item attributes
 config.wings.items.entry.evil.tooltip=Customize item attributes
 config.wings.items.entry.dragon.tooltip=Customize item attributes
+config.wings.items.entry.parrot.tooltip=Customize item attributes
 
 config.wings.items.settings.requiredFlightSatiation=Required Flight Satiation
 config.wings.items.settings.flyingExertion=Flying Exertion

@@ -53,7 +53,7 @@ public final class WingsItemsConfig {
 
 	@Config.LangKey("config.wings.items.entry.parrot")
 	@Config.RequiresMcRestart
-	public static final ConfigWingSettings PARROT = new ConfigWingSettings(WingsItems.Names.PARROT, HARDEST);
+	public static final ConfigWingSettings PARROT = new ConfigWingSettings(WingsItems.Names.PARROT, EASIEST);
 
 	public static ImmutableMap<ResourceLocation, WingSettings> createWingAttributes() {
 		return Stream.of(ANGEL, SLIME, BLUE_BUTTERFLY, MONARCH_BUTTERFLY, FIRE, BAT, FAIRY, EVIL, DRAGON, PARROT)
