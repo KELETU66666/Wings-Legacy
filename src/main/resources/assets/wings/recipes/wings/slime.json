@@ -1,0 +1,17 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"SDS",
+		"GAG",
+		"G G"
+	],
+	"key": {
+		"S": { "type": "forge:ore_dict", "ore": "slimeball" },
+		"G": { "type": "forge:ore_dict", "ore": "ingotGold" },
+		"A": { "type": "forge:ore_dict", "ore": "netherStar" },
+		"D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+	},
+	"result": {
+		"item": "slime_wings"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"RDR",
+		"GAG",
+		"G G"
+	],
+	"key": {
+		"R": { "type": "forge:ore_dict", "ore": "dustRedstone" },
+		"G": { "type": "forge:ore_dict", "ore": "ingotGold" },
+		"A": { "type": "forge:ore_dict", "ore": "netherStar" },
+		"D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+	},
+	"result": {
+		"item": "bat_wings"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"BDB",
+		"GAG",
+		"G G"
+	],
+	"key": {
+		"B": { "item": "minecraft:blaze_powder" },
+		"G": { "type": "forge:ore_dict", "ore": "ingotGold" },
+		"A": { "type": "forge:ore_dict", "ore": "netherStar" },
+		"D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+	},
+	"result": {
+		"item": "fire_wings"
+	}
+}

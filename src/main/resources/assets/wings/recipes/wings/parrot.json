@@ -1,0 +1,18 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"RDF",
+		"GAG",
+		"G G"
+	],
+	"key": {
+		"R": { "type": "forge:ore_dict", "ore": "dyeRed" },
+		"F": { "type": "forge:ore_dict", "ore": "feather" },
+		"G": { "type": "forge:ore_dict", "ore": "ingotGold" },
+		"A": { "type": "forge:ore_dict", "ore": "netherStar" },
+		"D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+	},
+	"result": {
+		"item": "parrot_wings"
+	}
+}

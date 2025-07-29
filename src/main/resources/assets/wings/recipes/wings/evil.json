@@ -1,0 +1,17 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"EDE",
+		"GAG",
+		"G G"
+	],
+	"key": {
+		"E": { "type": "forge:ore_dict", "ore": "gemEmerald" },
+		"G": { "type": "forge:ore_dict", "ore": "ingotGold" },
+		"A": { "type": "forge:ore_dict", "ore": "netherStar" },
+		"D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+	},
+	"result": {
+		"item": "evil_wings"
+	}
+}
