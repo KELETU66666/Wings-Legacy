@@ -7,7 +7,6 @@ import me.paulf.wings.server.item.group.ItemGroupWings;
 import me.paulf.wings.util.CapabilityProviders;
 import me.paulf.wings.util.Reg;
 import me.paulf.wings.util.Util;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
@@ -23,8 +22,6 @@ import java.util.function.Function;
 public final class WingsItems {
     private WingsItems() {
     }
-
-    public static final Item BAT_BLOOD = Util.sneakyNull();
 
     public static final Item ANGEL_WINGS = Util.sneakyNull();
 
@@ -49,10 +46,6 @@ public final class WingsItems {
     @SubscribeEvent
     public static void register(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-                Reg.withName(new Item()
-                        .setCreativeTab(ItemGroupWings.instance())
-                        .setContainerItem(Items.GLASS_BOTTLE), "bat_blood"
-                ),
                 createWings(Names.ANGEL, WingsMod.instance()::createAvianWings, WingsItemsConfig.ANGEL),
                 createWings(Names.SLIME, WingsMod.instance()::createInsectoidWings, WingsItemsConfig.SLIME),
                 createWings(Names.BLUE_BUTTERFLY, WingsMod.instance()::createInsectoidWings, WingsItemsConfig.BLUE_BUTTERFLY),
